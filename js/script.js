@@ -47,11 +47,11 @@ const clickDeleteBtn = () => {
         })
     })
 }
-// const drawList = (array) => {
-//     todoList.innerHTML = ''
-//     array.forEach((todo) => {
-//         drawItem(todo)
-//     })
-//     clickDeleteBtn()
-// }
-// drawList(allTodos)
+const drawList = (array) => {
+    todoList.innerHTML = ''
+    array.forEach((todo) => {
+        drawItem(todo)
+    })
+    clickDeleteBtn()
+}
+drawList(allTodos)
