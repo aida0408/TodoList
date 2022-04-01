@@ -3,6 +3,16 @@
     font-family: "Roboto", sans-serif;
     font-size: 24px;
 }
+body {
+    height: 100vh;
+    background-image:url("../images/fon2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: green;
+}
 .input-group{
     margin-top: 100px;
 }
